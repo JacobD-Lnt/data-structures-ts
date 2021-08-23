@@ -28,11 +28,11 @@ describe("LinkedList", () => {
         expect(aNode.next).toEqual(bNode);
     })
 
-    // test("should return total count of nodes", () => {
-    //     let node = new Node();
-    //     linkedList.add(node)
-    //     expect(linkedList.count()).toEqual(1)
-    // });
+    test("should return total count of nodes", () => {
+        let node = new Node();
+        linkedList.add(node)
+        expect(linkedList.count()).toEqual(1)
+    });
 
     // test("should find a node and return it", () => {
     //     let node = new Node("Shoe");
